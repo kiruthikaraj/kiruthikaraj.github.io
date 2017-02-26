@@ -1,0 +1,150 @@
+body {
+	
+	background: #E6E6FA;
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: url(../images/london.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	/*background position center;*/
+
+}
+
+.hamburger{
+	background: none;
+	position: absolute;	top:0px; right:0px;
+  line-height:45px;
+  padding:5px 15px 15px 15px;
+  color:white;
+  border:0;
+  font-size:2em;
+  font-weight:bolder;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.business {
+		font-weight: normal;
+	
+}
+
+.menu{z-index:1000000; font-weight:bolder; font-size:0.8em; width:23%; min-width: 200px; background:black; opacity:0.7; position: absolute; top: 0px; right: 0px; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 10px 10px 0 10px; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:20px 10px 20px 10px; border-bottom:#dddddd 1px dotted;}
+.menu li:hover{display: block; background:white; border-bottom:#dddddd 1px solid;}
+.menu ul li a { display: block; background: transparent; text-decoration: none;  margin: 0px; color:white; font-size: 15px;}
+.menu ul li a:hover { color: black; text-decoration:none;}
+.menu a{text-decoration:none; color:white;}
+.menu a:hover{text-decoration:none; color:black;}
+
+
+.main {
+		background: rgba(180,200,255,0.9);
+		width: 600px;
+		margin: 0 auto;
+		padding: 40px;
+		border-radius: 20px;
+		box-shadow: 0 0 20px 2px white;
+}
+
+	h1 {
+		text-align: center;
+		font-size: 40px;
+		margin: 0;
+		color: white;
+		font-weight: bolder;
+		border-bottom: 5px solid white;
+		padding-bottom: 10px;
+		font-family: 'Pacifico', cursive;
+		text-shadow: 5px 5px 10px powderblue;
+}
+
+	h2{
+		text-align: center;
+		font-weight: bolder;
+		text-transformation: normal;
+		letter-spacing: 5px;
+		font-size: 20px;
+		color: white;
+		
+	}
+
+	p{
+		color: white;
+		font-weight: bold;
+	}
+
+	h3{
+		color: white;
+		font-weight: bold;
+		letter-spacing: 2px;
+		font-size: 20px;
+		margin-bottom: 0;
+		cursor: pointer;
+	}
+
+	h3 + *{
+		display: none;
+	}
+
+	ol{
+		color: white;
+		font-weight: bold;
+		}
+
+	ul{
+		color: white;
+		font-weight: bold;
+
+	}
+
+	img{
+		/* centering the image*/
+		display: block;
+		margin: 0 auto;
+		border: 10px dotted rgb(180,200,255));
+		border-radius: 50%;
+}
+
+img:hover{
+		transition: transform 1s;
+		transform: rotatey(360deg);
+}
+	
+p,
+ol,
+ul {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+
+}	
+a{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+		text-decoration: underline;
+		color: white;
+}
+
+.footer {
+		margin: 50px 0 0 0 ;
+		width: 100%;
+		padding: 20px;
+		text-align: center;
+		background: black;
+
+		opacity: 0.7;
+}
+
+
+.footer  li {
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 15px;
+}
+
+
